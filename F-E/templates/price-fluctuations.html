@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Price Fluctuations</title>
+  <link rel="stylesheet" href="../static/styles/price-fluctuations.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="../static/images/basic_logo_1.jpg" alt="Price Fluctuations Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index/index.html">Home</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <img src="../static/images/Price_Pred_Title_new.png" alt="Price Prediction Graphic" class="title-image">
+    <h1>Price Prediction and Trends</h1>
+    <p>Enter a product name:</p>
+    <form id="searchForm">
+      <input type="text" id="productInput" placeholder="Enter product name..." required>
+      <button type="submit" style="border:none; background:none; padding:0;">
+        <img src="../static/images/Search_button-remove-background.png" alt="Search Button" style="width: 160px; height: auto;">
+      </button>
+      <div id="suggestions" class="suggestions"></div>
+    </form>
+
+    <div class="toolbar" id="toolbar"></div>
+    <div id="results" class="results-container"></div>
+
+    <!-- Modal Popup -->
+    <div id="predictionModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <!-- Object Details -->
+        <div id="objectDetails">
+          <h2 id="modalProductName"></h2>
+          <p id="productDetails">Details about the product will go here.</p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'GraphAnalysis')">ניתוח סטטיסטיקות</button>
+          <button class="tablinks" onclick="openTab(event, 'Statistics')">גרפים</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="GraphAnalysis" class="tabcontent">
+          <h3>ניתוח סטטיסטיקות</h3>
+          <p id="analysisText">Analysis will be displayed here based on the fetched data.</p>
+        </div>
+
+        <div id="Statistics" class="tabcontent">
+          <h3>גרפים</h3>
+          <div id="chartContainer"></div> <!-- This will hold all the graphs -->
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<div class="footer">
+  <div class="wrap">
+    <div class="image-6">
+      <img src="../static/images/basic_logo-remove-background.com.png" alt="">
+    </div>
+    <div class="footer-list">
+      <a href="#" class="footer-link">Email</a>
+      <a href="#" class="footer-link">Instagram</a>
+      <a href="#" class="footer-link">Facebook</a>
+      <a href="#" class="footer-link">Twitter</a>
+    </div>
+  </div>
+</div>
+<!-- Ensure the JavaScript is loaded at the end of the body -->
+<script src="../static/JS/price-fluctuations.js"></script>
+</body>
+</html>

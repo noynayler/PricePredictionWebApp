@@ -1,0 +1,31 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Frontend dependencies
+node_modules/
+dist/
+
+# Output files
+*.log
+*.csv
+*.png
+*.svg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+logs/
