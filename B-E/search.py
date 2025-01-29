@@ -1,9 +1,10 @@
 from flask import jsonify
 from pymongo import MongoClient
 from datetime import datetime
+import os
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://admin:9491263@cluster0.nwcjgox.mongodb.net/')
+client = MongoClient(os.getenv("MONGODB_URI"))
 db = client['shufersal_data']
 collection = db['products_labels']
 
