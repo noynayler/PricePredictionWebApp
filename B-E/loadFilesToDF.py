@@ -53,12 +53,12 @@ import pandas as pd
 from pymongo import MongoClient
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://admin:9491263@cluster0.nwcjgox.mongodb.net/')
+client = MongoClient(os.getenv("MONGODB_URI")) # configure in .env
 db = client['shufersal_data']
 collection = db['productsCSV']
 
 # Read the CSV file
-file_path = '/Users/shirgeorge/IdeaProjects/project1/.idea/data2.csv'  # Replace with your actual file path
+file_path = 'FilePath' # edit your path
 data = pd.read_csv(file_path)
 
 # Convert the DataFrame to a list of dictionaries
