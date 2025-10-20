@@ -1,4 +1,5 @@
-# Smarket – The Smart Market
+# <img src="https://github.com/user-attachments/assets/3ba1d55b-4210-40a3-aeb6-18fa15c88570" width="60" alt="Logo"> Smarket – The Smart Market
+
 
 ## Overview
 
@@ -52,28 +53,54 @@ The project follows a three-tier architecture:
 
 ## Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  
+
+<p align="center">
+  <!-- Main (tall) screenshot -->
+  <a href="https://github.com/user-attachments/assets/b96b5c78-08e3-4fe8-86c1-ac84d0c09a18" target="_blank">
+    <img src="https://github.com/user-attachments/assets/b96b5c78-08e3-4fe8-86c1-ac84d0c09a18"
+         alt="Full-page preview"
+         width="350"
+         style="object-fit: cover; border-radius: 10px; margin-bottom: 20px;" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <!-- First row -->
   <a href="https://github.com/user-attachments/assets/11f0a7d5-868d-42ee-a068-e1bf8600f717" target="_blank">
-      <img src="https://github.com/user-attachments/assets/11f0a7d5-868d-42ee-a068-e1bf8600f717" width="150" height="100" style="object-fit: cover;" />
+    <img src="https://github.com/user-attachments/assets/11f0a7d5-868d-42ee-a068-e1bf8600f717"
+         width="200"
+         height="130"
+         style="object-fit: cover; border-radius: 8px; margin: 5px;" />
   </a>
-
   <a href="https://github.com/user-attachments/assets/a90f8a35-3abb-4b7e-867b-8be8c3038753" target="_blank">
-      <img src="https://github.com/user-attachments/assets/a90f8a35-3abb-4b7e-867b-8be8c3038753" width="150" height="100" style="object-fit: cover;" />
+    <img src="https://github.com/user-attachments/assets/a90f8a35-3abb-4b7e-867b-8be8c3038753"
+         width="200"
+         height="130"
+         style="object-fit: cover; border-radius: 8px; margin: 5px;" />
   </a>
+</p>
 
+<p align="center">
+  <!-- Second row -->
   <a href="https://github.com/user-attachments/assets/c203ea22-a9d2-4f55-82fb-3d29de5ef624" target="_blank">
-      <img src="https://github.com/user-attachments/assets/c203ea22-a9d2-4f55-82fb-3d29de5ef624" width="150" height="100" style="object-fit: cover;" />
+    <img src="https://github.com/user-attachments/assets/c203ea22-a9d2-4f55-82fb-3d29de5ef624"
+         width="200"
+         height="130"
+         style="object-fit: cover; border-radius: 8px; margin: 5px;" />
   </a>
-
-
-
   <a href="https://github.com/user-attachments/assets/8f38daea-ae4f-4b8b-a3d4-0438911e15b4" target="_blank">
-      <img src="https://github.com/user-attachments/assets/8f38daea-ae4f-4b8b-a3d4-0438911e15b4" width="150" height="100" style="object-fit: cover;" />
+    <img src="https://github.com/user-attachments/assets/8f38daea-ae4f-4b8b-a3d4-0438911e15b4"
+         width="200"
+         height="130"
+         style="object-fit: cover; border-radius: 8px; margin: 5px;" />
   </a>
+</p>
 
-</div>
-
+<p align="center">
+  <em>Click any image to view in full size</em>
+</p>
 
 
 
