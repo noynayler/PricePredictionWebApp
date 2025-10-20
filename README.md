@@ -66,9 +66,7 @@ The project follows a three-tier architecture:
       <img src="https://github.com/user-attachments/assets/c203ea22-a9d2-4f55-82fb-3d29de5ef624" width="150" height="100" style="object-fit: cover;" />
   </a>
 
-  <a href="https://github.com/user-attachments/assets/610b43d1-b55b-4445-9cdb-ba3e62dbdbd5" target="_blank">
-      <img src="https://github.com/user-attachments/assets/610b43d1-b55b-4445-9cdb-ba3e62dbdbd5" width="150" height="100" style="object-fit: cover;" />
-  </a>
+
 
   <a href="https://github.com/user-attachments/assets/8f38daea-ae4f-4b8b-a3d4-0438911e15b4" target="_blank">
       <img src="https://github.com/user-attachments/assets/8f38daea-ae4f-4b8b-a3d4-0438911e15b4" width="150" height="100" style="object-fit: cover;" />
